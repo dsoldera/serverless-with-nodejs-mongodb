@@ -1,0 +1,24 @@
+{
+  "name": "using-node-js-and-serverless",
+  "version": "1.0.0",
+  "description": "Using nodejs and AWS Serveless Tool",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline start",
+    "deploy": "sls deploy -v"
+  },
+  "author": "Danielle Soldera",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "serverless-http": "^2.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.0",
+    "serverless-dotenv": "^1.0.0-beta.2",
+    "serverless-dotenv-plugin": "^2.1.1"
+  }
+}
